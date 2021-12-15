@@ -8,7 +8,7 @@ const validateBoolOption = (name, value, defaultValue) => {
   }
 
   if (typeof value !== 'boolean') {
-    throw new Error(`Preset clodeo-app: '${name}' option must be a boolean.`);
+    throw new Error(`Preset luma: '${name}' option must be a boolean.`);
   }
 
   return value;

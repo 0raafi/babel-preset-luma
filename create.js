@@ -155,7 +155,6 @@ module.exports = function (api, opts, env) {
       // See https://github.com/facebook/create-react-app/issues/8445#issuecomment-588512250
       require('@babel/plugin-proposal-optional-chaining').default,
       require('@babel/plugin-proposal-nullish-coalescing-operator').default,
-      // Clodeo App Code Splitting Support
       require("@loadable/babel-plugin").default,
       // Enable Hot Reloading on Development
       !isEnvProduction && [require("react-hot-loader/babel")],
